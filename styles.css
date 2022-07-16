@@ -20,12 +20,6 @@ body {
 }
 
 .head {
-    position: absolute;
-    width: 76px;
-    height: 16px;
-    left: 552px;
-    top: 32px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
