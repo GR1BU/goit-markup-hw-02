@@ -1,5 +1,4 @@
 .header {
-    display: flex;
     position: absolute;
     width: 1600px;
     height: 80px;
@@ -8,3 +7,6 @@
     background: #FFFFFF
 }
 
+body {
+    font-family: Roboto;
+}
