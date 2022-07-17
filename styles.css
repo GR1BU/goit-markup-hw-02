@@ -94,7 +94,15 @@ body {
     color: #757575
 }
 
-.adress {
+.footer {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+}
+
+.footer-adress {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -103,6 +111,7 @@ body {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+
 
 .footer-link, footer-mail {
     font-style: normal;
