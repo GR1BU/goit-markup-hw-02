@@ -77,6 +77,13 @@ body {
 .main-btn {
     font-family: inherit;
     color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .main-btn:hover,
