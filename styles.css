@@ -13,7 +13,23 @@ body {
 }
 
 .header-link {
-    
+
+}
+
+.header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575; 
 }
 
 .studio {
