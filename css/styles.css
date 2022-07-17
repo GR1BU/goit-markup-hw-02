@@ -93,6 +93,10 @@ body {
 
 .description-section {
     background-color: #E5E5E5;
+    width: 1170px;
+    height: 101px;
+    left: 215px;
+    top: 774px; 
 }
 
 .main-text {
