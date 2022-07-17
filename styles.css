@@ -9,7 +9,11 @@ body {
     height: 80px;
     left: 0px;
     top: 0px;
-    background: #FFFFFF;
+    background: gray;
+}
+
+.header-link {
+    
 }
 
 .studio {
@@ -49,12 +53,12 @@ body {
 
 .description {
     font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
-color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 .main-name {
