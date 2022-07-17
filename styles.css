@@ -72,6 +72,14 @@ body {
     color: #757575;
 }
 
+.team-section {
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+    background: #F5F4FA;
+}
+
 .main-name {
     font-style: normal;
     font-weight: 500;
