@@ -38,6 +38,10 @@ body {
 }
 
 .main {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
 }
 
 .main-big {
