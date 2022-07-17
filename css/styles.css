@@ -70,10 +70,10 @@ body {
 }
 
 .main-btn {
-    padding-top: 350px;
-    padding-bottom: 200px;
-    padding-right: 700px;
-    padding-left: 700px;
+    margin-top: 350px;
+    margin-bottom: 200px;
+    margin-right: 700px;
+    margin-left: 700px;
     font-family: inherit;
     color: #FFFFFF;
 }
