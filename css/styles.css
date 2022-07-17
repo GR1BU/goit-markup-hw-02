@@ -14,7 +14,8 @@ body {
 }
 
 
-.header-link:hover {
+.header-link:hover,
+.header-link:focus {
     color: #2196F3;
 }
 
@@ -22,11 +23,13 @@ body {
 
 
 
-.header-mail:hover{
+.header-mail:hover,
+.header-mail:focus{
     color: #2196F3;
 }
 
-.header-tel:hover {
+.header-tel:hover,
+.header-tel:focus {
     color: #2196F3;
 }
 
@@ -65,7 +68,8 @@ body {
     color: #FFFFFF;
 }
 
-.main-btn:hover {
+.main-btn:hover,
+.main-btn:focus {
     color: #2196F3;
 }
 
