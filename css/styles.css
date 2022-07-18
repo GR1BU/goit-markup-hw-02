@@ -4,6 +4,11 @@ body {
 }
 
 .studio {
+    padding-bottom: 25px;
+    padding-top: 24px;
+    padding-left: 215px;
+    padding-right: 1240px;
+    display: flex;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -13,50 +18,65 @@ body {
     color: #2196F3;   
 }
 
-
-.header-link:hover,
-.header-link:focus {
+.list-btn:focus,
+.list-btn:hover {
     color: #2196F3;
-}
-
-
-
-
-
-.header-mail:hover,
-.header-mail:focus{
-    color: #2196F3;
-}
-
-.header-tel:hover,
-.header-tel:focus {
-    color: #2196F3;
-}
-
-.main-section {
-    background-color: #2F303A;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-}
-
-.main {
 
 }
 
-.main-big {
-    padding-top: 200px;
-    padding-bottom: 280px;
-    margin-right: 452px;
-    margin-left: 452px;
-    color: #FFFFFF;
+.img-section {
+    width: 1170px;
+height: 1360px;
+left: 215px;
+top: 174px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-big [
     font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-}
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+]
+
 
 .main-photos {
+    padding-right: 612px;
+    padding-left: 612px;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -75,6 +95,8 @@ body {
 }
 
 .main-btn {
+    margin-left: 732px;
+    margin-right: 732px;
     font-family: inherit;
     color: #FFFFFF;
     width: 200px;
@@ -96,10 +118,31 @@ body {
 }
 
 .main-list {
+    display: flex;
     width: 1170px;
     height: 101px;
     left: 215px;
     top: 774px; 
+}
+
+.photos {
+    display: flex;
+}
+
+.description-head {
+    display: flex;
+    padding-left: 612px;
+    padding-right: 612px;
+}
+
+.list-photos {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 1061px;
+
 }
 
 .main-text {
@@ -130,7 +173,15 @@ body {
     background: #F5F4FA;
 }
 
+.team-list {
+    display: flex;
+}
+
+
+
 .main-frame {
+    margin-left: 30px;
+    margin-right: 30px;
     width: 270px;
     height: 368px;
     left: 215px;
@@ -171,23 +222,38 @@ body {
     background: #2F303A;
 }
 
-.footer-adress {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
+.footer-logo {
+    display: flex;
+    padding-left: 215px;
+    padding-right: 1240px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
     letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer-list {
+    padding-left: 215px;
+    padding-right: 1154px;
+    padding-bottom: 60px;
+}
+
+.footer-adress {
     color: #FFFFFF;
 }
 
-
-.footer-link, footer-mail {
-    font-style: normal;
+.footer-mail,
+.footer-tel {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
 }
