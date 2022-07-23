@@ -1,88 +1,265 @@
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
 }
 
-.studio {
-    padding-bottom: 25px;
-    padding-top: 24px;
-    padding-left: 215px;
-    padding-right: 1240px;
+.web {
+    color: #2196F3;
+}
+
+.header-div {
+    width: 1600px;
+    height: 80px;
+}
+
+.header-word:hover,
+.header-word:focus {
+    color: #2196F3;
+}
+
+.div-btn {
     display: flex;
-    font-style: normal;
+    width: 611px;
+    height: 54px;
+    left: 495px;
+    top: 174px;
+    margin-left: 495px;
+    margin-right: 494px;
+}
+
+
+
+.studio {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     /* identical to box height */
     letter-spacing: 0.03em;
-    color: #2196F3;   
+    color: #000000;
 }
 
-.list-btn:focus,
-.list-btn:hover {
+.header-item {
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.header-list {
+
+    padding-left: 453px;
+    display: flex;
+    width: 294px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+
+}
+
+.header-word {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+
+.header-word:focus,
+.header-word:hover {
     color: #2196F3;
+}
+
+
+
+.header-mail {
+    
+}
+
+
+.mail-word:focus,
+.mail-word:hover,
+.tel-word:focus,
+.tel-word:hover {
+    color: #2196F3;
+}
+
+.tel-word
+
+.tel-word,
+.mail-word {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-mail {
+    padding-top: 32px;
+    padding-left: 1078px;
 
 }
 
-.img-section {
-    width: 1170px;
-height: 1360px;
-left: 215px;
-top: 174px;
+.header-tel {
+    padding-left: 1263px;
+}
 
+.header-tel {
+    
+}
 
+.div-grey {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.main-big [
+.main-big {
+    padding-right: 452px;
+    padding-left: 452px;
+    padding-top: 200px;
     font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-/* or 136% */
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   width: 696px;
+   height: 120px;
+   left: 452px;
+   top: 280px;
+}
 
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+.main-image {
+    display: flex;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin: 30px;
+}
 
-color: #FFFFFF;
-]
+.main-portfolio {
+    width: 1170px;
+    height: 1360px;
+    left: 215px;
+    top: 174px;
+    padding-left: 215px;
+    padding-right: 215px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 
+}
+
+.images {
+    display: flex;
+}
+
+.main-btn {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+
+.btn-text {
+
+}
+
+.description-div {
+    display: flex;
+    width: 1170px;
+    height: 101px;
+    left: 215px;
+    top: 774px;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.description-head {
+
+}
+
+.main-list {
+    display: flex;
+}
+
+.main-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.main-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+   letter-spacing: 0.03em;
+   color: #757575;
+}
+
+.description-item {
+    width: 270px;
+    height: 101px;
+    left: 215px;
+    top: 774px;
+}
+
+
+.gallery {
+    display: flex;
+    width: 1170px;
+    height: 386px;
+    left: 215px;
+    top: 969px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.photos {
+    display: flex;
+}
+
+.img {
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
 .main-photos {
-    padding-right: 612px;
     padding-left: 612px;
+    padding-right: 612px;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+}
+
+.team-div {
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
 }
 
 .our-team {
@@ -94,127 +271,55 @@ color: #FFFFFF;
     color: #212121;
 }
 
-.main-btn {
-    margin-left: 732px;
-    margin-right: 732px;
-    font-family: inherit;
-    color: #FFFFFF;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
-    background-color: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
-
-.main-btn:hover,
-.main-btn:focus {
-    color: #2196F3;
-}
-
-.description-section {
-    background-color: #E5E5E5;
-}
-
-.main-list {
-    display: flex;
-    width: 1170px;
-    height: 101px;
+.class-worker {
+    width: 270px;
+    height: 260px;
     left: 215px;
-    top: 774px; 
-}
-
-.photos {
-    display: flex;
-}
-
-.description-head {
-    display: flex;
-    padding-left: 612px;
-    padding-right: 612px;
-}
-
-.list-photos {
-    margin-left: 30px;
-    margin-right: 30px;
-    width: 370px;
-    height: 294px;
-    left: 215px;
-    top: 1061px;
-
-}
-
-.main-text {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
-
-.main-description  {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-
-.team-section {
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
-    background: #F5F4FA;
+    top: 1635px;
+    background: url(4853.jpg);
+    border-radius: 0px;
 }
 
 .team-list {
     display: flex;
-}
-
-
-
-.main-frame {
-    margin-left: 30px;
-    margin-right: 30px;
-    width: 270px;
+    width: 1170px;
     height: 368px;
     left: 215px;
     top: 1635px;
-    background: #FFFFFF;
-    /* material shadow v1 */
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+    padding-left: 215px;
+    padding-right: 215px;
 }
 
 .main-name {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121
+    color: #212121;
 }
 
 .main-nametag {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
     text-align: center;
-    letter-spacing: 0.03em; 
-    color: #757575
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
-.footer {
+.main-frame {
+    background: #FFFFFF;
+    /* material shadow v1 */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.footer-div {
     width: 1600px;
     height: 252px;
     left: 0px;
@@ -224,36 +329,61 @@ color: #FFFFFF;
 
 .footer-logo {
     display: flex;
-    padding-left: 215px;
-    padding-right: 1240px;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 2157px;
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     /* identical to box height */
     letter-spacing: 0.03em;
     color: #2196F3;
+    padding-left: 215px;
+    padding-right: 1240px;
+    padding-top: 60px;
+}
+
+.stud {
+    color: #FFFFFF;
 }
 
 .footer-list {
     padding-left: 215px;
-    padding-right: 1154px;
-    padding-bottom: 60px;
+    padding-top: 20px;
 }
 
 .footer-adress {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
-.footer-mail,
+.footer-mail, 
 .footer-tel {
     font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
