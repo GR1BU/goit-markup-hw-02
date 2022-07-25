@@ -79,23 +79,8 @@ body {
 
 
 
-.header-mail {
-    
-}
-
-
-.mail-word:focus,
-.mail-word:hover,
-.tel-word:focus,
-.tel-word:hover {
-    color: #2196F3;
-}
-
-.tel-word
-
-.tel-word,
-.mail-word {
-    font-style: normal;
+.item-mail,
+.item-tel {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -103,17 +88,11 @@ body {
     color: #757575;
 }
 
-.header-mail {
- 
-
-}
-
-.header-tel {
-   
-}
-
-.header-tel {
-    
+.item-mail:hover,
+.item-mail:focus,
+.item-tel:hover,
+.item-tel:focus {
+    color: #2196F3;
 }
 
 .div-grey {
