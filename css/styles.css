@@ -46,6 +46,12 @@ body {
     color: #212121;
 }
 
+.header-link:hover,
+.haeder-list:focus {
+    color: #2196F3;
+
+}
+
 .header-list {
 
  
