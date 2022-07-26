@@ -88,12 +88,11 @@ body {
     color: #757575;
 }
 
-.item-mail:hover,
 .item-mail:focus,
-.item-tel:hover,
-.item-tel:focus {
+.item-mail:hover {
     color: #2196F3;
 }
+
 
 .div-grey {
     width: 1600px;
