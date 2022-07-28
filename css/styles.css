@@ -110,6 +110,11 @@ body {
     color:var(--color1)
 }
 
+.item-tel:focus,
+.item-tel:hover {
+    color: var(--color1);
+}
+
 
 .div-grey {
     width: 1600px;
