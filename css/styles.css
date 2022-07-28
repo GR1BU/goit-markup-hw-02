@@ -26,26 +26,16 @@ body {
 }
 
 .header-div {
-    width: 1600px;
-    height: 80px;
-}
-
-
-.div-btn {
-  
-    width: 611px;
-    height: 54px;
-    left: 495px;
-    top: 174px;
 
 }
+
 
 
 
 .studio {
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.1;
     /* identical to box height */
     letter-spacing: 0.03em;
     color:var(--color3)
@@ -58,7 +48,7 @@ body {
 .header-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color:var(--color2)
 }
@@ -73,17 +63,12 @@ body {
 
  
 
-    width: 294px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
-
 }
 
 .header-word {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color:var(--color2)
 }
@@ -100,7 +85,7 @@ body {
 .item-tel {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color:var(--color6)
 }
@@ -117,10 +102,7 @@ body {
 
 
 .div-grey {
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
+   
     background:var(--color5)
 }
 
@@ -128,7 +110,7 @@ body {
 
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.4;
     /* or 136% */
    text-align: center;
    letter-spacing: 0.06em;
@@ -138,10 +120,6 @@ body {
 }
 
 .main-image {
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 262px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     
@@ -150,10 +128,6 @@ body {
 }
 
 .main-portfolio {
-    width: 1170px;
-    height: 1360px;
-    left: 215px;
-    top: 174px;
 
 
 }
@@ -163,10 +137,7 @@ body {
 }
 
 .main-btn {
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
+
     background:var(--color1)
 
 }
@@ -176,10 +147,7 @@ body {
 }
 
 .description-div {
-    width: 1170px;
-    height: 101px;
-    left: 215px;
-    top: 774px; 
+
 
 
 }
@@ -192,7 +160,7 @@ body {
 .main-text {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--color2)
@@ -201,26 +169,20 @@ body {
 .main-description {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     /* or 171% */
    letter-spacing: 0.03em;
    color:var(--color6)
 }
 
 .description-item {
-    width: 270px;
-    height: 101px;
-    left: 215px;
-    top: 774px;
+
 }
 
 
 .gallery {
  
-    width: 1170px;
-    height: 386px;
-    left: 215px;
-    top: 969px;
+
 
 }
 
@@ -236,43 +198,34 @@ body {
 
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--color2)
 }
 
 .team-div {
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
+
 }
 
 .our-team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--color2)
 }
 
 .class-worker {
-    width: 270px;
-    height: 260px;
-    left: 215px;
-    top: 1635px;
+
     background: url(4853.jpg);
     border-radius: 0px;
 }
 
 .team-list {
 
-    width: 1170px;
-    height: 368px;
-    left: 215px;
-    top: 1635px;
+
 
 }
 
@@ -289,7 +242,7 @@ body {
 .main-nametag {
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     /* identical to box height */
     text-align: center;
     letter-spacing: 0.03em;
@@ -305,24 +258,17 @@ body {
 }
 
 .footer-div {
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2097px;
+
     background:var(--color5)
 }
 
 .footer-logo {
    
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 2157px;
+
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     /* identical to box height */
     letter-spacing: 0.03em;
     color:var(--color1)
@@ -340,7 +286,8 @@ body {
 .footer-adress {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    font-style: normal;
+    line-height: 1.7;
     /* or 171% */
     letter-spacing: 0.03em;
     color:var(--color4)
@@ -350,7 +297,7 @@ body {
 .footer-tel {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     /* or 171% */
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
