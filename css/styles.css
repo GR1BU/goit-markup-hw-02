@@ -25,11 +25,15 @@ body {
     
 }
 
-.header-mail,
+.header-mail {
+    color: rgba(0, 0, 0, 0);
+}
+
 .header-tel {
     color: rgba(0, 0, 0, 0);
-
 }
+
+
 
 .header-div {
 
