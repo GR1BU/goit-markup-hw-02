@@ -25,6 +25,12 @@ body {
     
 }
 
+.header-mail,
+.header-tel {
+    color: rgba(0, 0, 0, 0);
+
+}
+
 .header-div {
 
 }
