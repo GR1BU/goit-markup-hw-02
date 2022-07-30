@@ -203,6 +203,11 @@ body {
   
 }
 
+.list-photos {
+    color: rgba(0, 0, 0, 0);
+
+}
+
 .img {
 
 }
@@ -239,6 +244,11 @@ body {
 .team-list {
 
 
+
+}
+
+.main-frame {
+    color: rgba(0, 0, 0, 0);
 
 }
 
@@ -304,6 +314,11 @@ body {
     /* or 171% */
     letter-spacing: 0.03em;
     color:var(--color4)
+}
+
+.footer-item {
+    color: rgba(0, 0, 0, 0);
+
 }
 
 .footer-mail, 
