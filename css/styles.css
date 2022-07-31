@@ -158,10 +158,8 @@ body {
 }
 
 .main-image {
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    
-    
+    color: rgba(0, 0, 0, 0);
+
  
 }
 
@@ -235,15 +233,29 @@ body {
 
 }
 
-.img {
+.img-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em; 
+    color:var(--color2)
+}
 
+.img-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color:var(--color6)
 }
 
 .main-photos {
 
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--color2)
