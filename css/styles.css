@@ -96,6 +96,9 @@ body {
     color:var(--color1)
 }
 
+.list-btn {
+    text-decoration: none;
+}
 
 
 .item-mail,
@@ -327,6 +330,10 @@ body {
 .footer-item {
     color: rgba(0, 0, 0, 0);
 
+}
+
+.footer-logo {
+    text-decoration: none;
 }
 
 .footer-mail, 
