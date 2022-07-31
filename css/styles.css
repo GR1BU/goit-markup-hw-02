@@ -104,7 +104,23 @@ body {
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color:var(--color2)
+}
+
+.type-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--color2)
+}
+
+.type-btn:focus,
+.type-btn:hover {
+    background-color: var(--color1);
+    color: var(--color4);
 }
 
 
