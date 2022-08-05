@@ -1,29 +1,29 @@
 
 :root {
- --color1: #2196F3;
- --color2: #212121;
- --color3: #000000;
- --color4: #FFFFFF;
- --color5: #2F303A;
- --color6: #757575;
+ --focus-color: #2196F3;
+ --text-color: #212121;
+ --main-color: #000000;
+ --white: #FFFFFF;
+ --background: #2F303A;
+ --logo-color: #757575;
 
 
 }
 
 
 body {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
 
 }
 
 .web {
-    color: var(--color1);
+    color: var(--focus-color);
 }
 
 
 
 .web {
-    color: var(--color1);
+    color: var(--focus-color);
 
 
     
@@ -54,7 +54,7 @@ body {
     line-height: 1.19;
     /* identical to box height */
     letter-spacing: 0.03em;
-    color:var(--color3)
+    color:var(--main-color)
 }
 
 .header-item {
@@ -68,12 +68,12 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:var(--color2)
+    color:var(--text-color)
 }
 
 .header-link:hover,
 .header-link:focus {
-    color: var(--color1)
+    color: var(--focus-color)
 
 }
 
@@ -88,13 +88,13 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:var(--color2)
+    color:var(--text-color)
 }
 
 
 .header-word:focus,
 .header-word:hover {
-    color:var(--color1)
+    color:var(--focus-color)
 }
 
 .list-btn {
@@ -110,13 +110,13 @@ body {
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
-    color:var(--color2)
+    color:var(--text-color)
 }
 
 .type-btn:focus,
 .type-btn:hover {
-    background-color: var(--color1);
-    color: var(--color4);
+    background-color: var(--focus-color);
+    color: var(--white);
 }
 
 
@@ -127,23 +127,23 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:var(--color6)
+    color:var(--logo-color)
 }
 
 .item-mail:focus,
 .item-mail:hover {
-    color:var(--color1)
+    color:var(--focus-color)
 }
 
 .item-tel:focus,
 .item-tel:hover {
-    color: var(--color1);
+    color: var(--focus-color);
 }
 
 
 .div-grey {
    
-    background:var(--color5)
+    background:var(--background)
 }
 
 .main-big {
@@ -155,7 +155,7 @@ body {
    text-align: center;
    letter-spacing: 0.06em;
    text-transform: uppercase;
-   color:var(--color4)
+   color:var(--white)
    
 }
 
@@ -177,7 +177,7 @@ body {
 .main-btn {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    background:var(--color1)
+    background:var(--focus-color)
 }
 
 .btn-text {
@@ -203,16 +203,15 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:var(--color2)
+    color:var(--text-color)
 }
 
 .main-description {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     /* or 171% */
    letter-spacing: 0.03em;
-   color:var(--color6)
+   color:var(--logo-color)
 }
 
 .description-item {
@@ -241,16 +240,15 @@ body {
     line-height: 2;
     /* identical to box height, or 200% */
     letter-spacing: 0.06em; 
-    color:var(--color2)
+    color:var(--text-color)
 }
 
 .img-description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     /* identical to box height, or 188% */
     letter-spacing: 0.03em;
-    color:var(--color6)
+    color:var(--logo-color)
 }
 
 .main-photos {
@@ -260,7 +258,7 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color:var(--color2)
+    color:var(--text-color)
 }
 
 .team-div {
@@ -273,14 +271,10 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color:var(--color2)
+    color:var(--text-color)
 }
 
-.class-worker {
 
-    background: url(4853.jpg);
-    border-radius: 0px;
-}
 
 .team-list {
 
@@ -304,13 +298,12 @@ body {
 }
 
 .main-nametag {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     /* identical to box height */
     text-align: center;
     letter-spacing: 0.03em;
-    color:var(--color6)
+    color:var(--logo-color)
 }
 
 .main-frame {
@@ -323,7 +316,7 @@ body {
 
 .footer-div {
 
-    background:var(--color5)
+    background:var(--background)
 }
 
 .footer-logo {
@@ -335,12 +328,12 @@ body {
     line-height: 1.19;
     /* identical to box height */
     letter-spacing: 0.03em;
-    color:var(--color1)
+    color:var(--logo-color)
 
 }
 
 .stud {
-    color: var(--color4)
+    color: var(--white)
 }
 
 .footer-list {
@@ -349,12 +342,11 @@ body {
 
 .footer-adress {
     text-decoration: none;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     /* or 171% */
     letter-spacing: 0.03em;
-    color:var(--color4)
+    color:var(--white)
 }
 
 .footer-item {
@@ -369,7 +361,6 @@ body {
 .footer-mail, 
 .footer-tel {
     text-decoration: none;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     /* or 171% */
