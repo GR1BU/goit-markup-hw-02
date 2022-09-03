@@ -211,6 +211,7 @@ body {
 }
 
 .main-btn {
+    display: flex;
     padding-left: 692px;
     padding-right: 692px;
     padding-bottom: 200px;
