@@ -355,6 +355,7 @@ body {
 
 .main-frame {
     color: rgba(0, 0, 0, 0);
+    display: flex;
 
 }
 
@@ -391,6 +392,7 @@ body {
 }
 
 .footer-logo {
+    margin-bottom: 20px;
     margin-top: 60px;
     margin-left: 215px;
     font-family: 'Raleway';
