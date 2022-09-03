@@ -66,7 +66,6 @@ body {
 
 
 
-
 .studio {
     display: flex;
     padding-top: 24px;
@@ -106,7 +105,7 @@ body {
 .header-list {
     display: flex;
     width: 281px;
-    padding-left: 453px;
+    padding-left: 93px;
 
  
 
@@ -154,7 +153,7 @@ body {
 
 
 .item-mail {
-    padding-left: 1078px;
+    padding-left: 344px;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -167,7 +166,7 @@ body {
 
 
 .item-tel {
-    padding-left: 1263px;
+    padding-left: 50px;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
