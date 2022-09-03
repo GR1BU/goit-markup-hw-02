@@ -211,10 +211,9 @@ body {
 }
 
 .main-btn {
-    display: flex;
-    padding-left: 692px;
-    padding-right: 692px;
-    padding-bottom: 200px;
+    margin-left: 692px;
+    margin-right: 692px;
+    margin-bottom: 200px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     background:var(--focus-color)
