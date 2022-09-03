@@ -294,6 +294,7 @@ body {
     border-radius: 0px 0px 4px 4px;
     margin-left: 30px;
     margin-right: 30px;
+
 }
 
 .btn-container {
@@ -355,7 +356,6 @@ body {
 
 .main-frame {
     color: rgba(0, 0, 0, 0);
-    display: flex;
 
 }
 
@@ -410,6 +410,7 @@ body {
 }
 
 .footer-list {
+    margin-left: 215px;
 
 }
 
