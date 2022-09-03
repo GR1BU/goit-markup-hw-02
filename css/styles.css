@@ -221,8 +221,12 @@ body {
 
 }
 
+.portfolio-item {
+    color: rgba(0, 0, 0, 0);
+}
+
 .images {
-   
+    display: flex;
 }
 
 .main-btn {
