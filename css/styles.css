@@ -109,9 +109,6 @@ body {
 .header-list {
     width: 281px;
     padding-left: 453px;
-
- 
-
 }
 
 .header-word {
@@ -284,12 +281,12 @@ body {
 }
 
 .photos {
+
   
 }
 
 .list-photos {
     color: rgba(0, 0, 0, 0);
-    display: flex;
 
 }
 
