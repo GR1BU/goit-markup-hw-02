@@ -67,9 +67,7 @@ body {
 
 
 .studio {
-    display: flex;
     padding-top: 24px;
-    margin-top: 24px;
     padding-left: 215px;
     font-family: 'Raleway';
     text-decoration: none;
@@ -103,9 +101,8 @@ body {
 }
 
 .header-list {
-    display: flex;
     width: 281px;
-    padding-left: 93px;
+    padding-left: 453px;
 
  
 
@@ -153,7 +150,7 @@ body {
 
 
 .item-mail {
-    padding-left: 344px;
+    padding-left: 1078px;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -166,7 +163,7 @@ body {
 
 
 .item-tel {
-    padding-left: 50px;
+    padding-left: 1263px;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
