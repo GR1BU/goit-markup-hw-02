@@ -50,6 +50,7 @@ body {
 
 
 .header-div {
+    display: flex;
 
 }
 
