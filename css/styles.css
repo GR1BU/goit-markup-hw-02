@@ -84,8 +84,9 @@ body {
     color: rgba(0, 0, 0, 0);
 }
 
-.potfolio-btn {
+.portfolio-btn {
     display: flex;
+    margin-left: 512px;
 }
 
 .header-link {
