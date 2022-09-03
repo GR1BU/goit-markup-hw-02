@@ -16,6 +16,7 @@
 }
 
 .main-list {
+    display: flex;
     margin-top: 94px;
     margin-left: 215px;
 
