@@ -391,8 +391,8 @@ body {
 }
 
 .footer-logo {
-   
-
+    margin-top: 60px;
+    margin-left: 215px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
