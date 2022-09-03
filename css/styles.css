@@ -328,7 +328,10 @@ body {
 }
 
 .team-div {
+    margin-bottom: 94px;
+    display: flex;
     margin-left: 215px;
+
 
 }
 
