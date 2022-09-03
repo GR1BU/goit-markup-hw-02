@@ -33,6 +33,10 @@ body {
     color: rgba(0, 0, 0, 0);
 }
 
+.container {
+    width: 1200px;
+}
+
 .header-tel {
     color: rgba(0, 0, 0, 0);
 }
