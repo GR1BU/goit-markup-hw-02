@@ -13,7 +13,9 @@
 .header {
     background-color:var(--white);
     width: 1600px;
+    border-bottom: ;
 }
+
 
 .main-list {
     display: flex;
@@ -65,11 +67,7 @@ body {
 
 
 
-.header-div {
-    width: 1600px;
-    height: 80px;
 
-}
 
 
 
