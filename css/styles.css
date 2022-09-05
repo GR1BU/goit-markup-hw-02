@@ -10,10 +10,14 @@
 
 }
 
+h1, h2, h3, p {
+    margin: 0;
+}
+
 .header {
     background-color:var(--white);
     width: 1600px;
-    border-bottom: ;
+    border-bottom: #757575;
 }
 
 
@@ -402,10 +406,11 @@ body {
 
 }
 
-.footer-div {
-
+.footer {
     background:var(--background)
+
 }
+
 
 .footer-logo {
     margin-bottom: 20px;
